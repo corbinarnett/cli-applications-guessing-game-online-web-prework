@@ -9,7 +9,7 @@ def run_guessing_game
   # If the user's input DOES NOT matches the random number: Sorry! The computer guessed <number>.
   # It the user's input is equal to "exit": Goodbye!
 
-  number = rand(6) + 1 
+  number = rand(6) + 1
 
   puts "Guess a number between 1 and 6"
 
